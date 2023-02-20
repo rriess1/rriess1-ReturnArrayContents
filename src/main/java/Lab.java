@@ -33,8 +33,10 @@ public class Lab {
         String s = "";
 
         for(int i: nums){
-            s = i + " ";
+            s = s + i + " ";
+            System.out.println(s);
         }
+        
         return s;
     }
 }
